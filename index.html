@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+  <meta charset='utf-8'>
+  <meta name="robots" content="index, follow">
+  <meta name="description" content="">
+  <meta name="author" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta property="og:title" content="">
+  <meta property="og:url" content="">
+  <meta property="og:type" content="">
+  <meta property="og:description" content="">
+  <meta property="og:image" content="">
+  <meta property="og:locale" content="">
+  
+  <title></title>
+  <link rel="shortcut icon" href="img/">
+  <link href='https://fonts.googleapis.com/css?family=Slabo+27px' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+
+<div id="page-wrap">
+
+  <!-- Header -->
+
+  <header id="header">
+    <div id="title-and-info-wrap">
+    
+      <a href="index.html" id="header-title">Word shuffler</a>
+      
+      <button id="info-button">
+        <span id="info-button-span">i</span>
+      </button>
+      
+    </div>
+  </header>
+
+
+  <!-- Main -->
+  <div id="main">
+
+    <span id="info-text">
+      <p>Word shuffler enables you to shuffle the letters of a word in to a random order. Simply enter the word you'd like to shuffle in the textarea below and click "Shuffle". The result will come up in the grey area under the button.</p><p>With Word shuffler you can also shuffle entire sentences or paragraphs. The words will be shuffled one at a time so that sentence structure is intact. The first letter of a sentence will always be capitalized, even after it's been shuffled. A word that was written in all capital letters before it got shuffled will also stay that way.</p><p>Word shuffler only works with the English alphabet, numbers and question marks, exclamation marks and dots [?!.]. All other characters will be deleted before the shuffling takes place.</p>
+    </span>
+    
+    <!-- Form to enter text to be shuffled -->
+    <div id="shuffler-form">
+      <textarea id="shuffler-form-textarea" placeholder="Enter word or phrases here."></textarea>
+      <span id="characters-info-text">Only works with English letters, numbers and characters "!", "?" and ".".</span>
+      <button id="shuffler-form-button" class="button-rounded">Shuffle</button>
+    </div>
+    
+    <!-- Div where shuffled text is displayed -->
+    <div id="shuffler-display-area">
+      <span id="shuffled-text"></span>
+    </div>
+    
+  </div>
+
+</div>
+
+<!-- Footer -->
+<footer id="footer">
+
+  <div id="footer-div">
+    <span id="footer-span">Made by Filip Zalamans | <a href="github">Github</a></span>
+  </div>
+
+</footer>
+  
+<!-- Calls the javascript after DOM is available -->
+<script type="text/javascript" src="js/main.js"></script>
+
+</body>
+</html>
