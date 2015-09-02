@@ -1,7 +1,7 @@
 (function() {
   
   var infoButton = document.getElementById("info-button"),
-      infoSpan = document.getElementById("info-text"),
+      infoDiv = document.getElementById("info-text"),
       formButton = document.getElementById("shuffler-form-button"),
       textarea = document.getElementById("shuffler-form-textarea"),
       span = document.getElementById("shuffled-text");
@@ -148,15 +148,15 @@
   
   infoButton.addEventListener("click", function() {
     
-    if(infoSpan.style.display == "inline-block") {
-      infoSpan.className = "do-fade-out";
+    if(infoDiv.style.display == "inline-block") {
+      infoDiv.className = "do-fade-out";
       setTimeout(function() {
-        infoSpan.style.display = "none";
+        infoDiv.style.display = "none";
       }, 400);
     }
     else {
-      infoSpan.style.display = "inline-block";
-      infoSpan.className = "do-fade-in";
+      infoDiv.style.display = "inline-block";
+      infoDiv.className = "do-fade-in";
     }
     
   }, false);
