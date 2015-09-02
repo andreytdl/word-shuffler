@@ -14,7 +14,7 @@ html, body {
 
 #page-wrap {
   min-height:100%;
-  margin-bottom:-60px; /* Footer height */
+  margin-bottom:-60.5px; /* Footer height */
 }
 
 #page-wrap:after {
