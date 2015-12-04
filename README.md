@@ -1,5 +1,7 @@
 # Word Shuffler
 
+http://bluesuede.github.io/word-shuffler/
+
 A web app that let users randomly shuffle the letters of a word in to a random order.
 
 If a sentence, paragraph or any longer text is entered it will be shuffled one word at a time.
