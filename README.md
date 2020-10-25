@@ -1,6 +1,6 @@
 # Word Shuffler
 
-http://bluesuede.github.io/word-shuffler/
+http://kresls.github.io/word-shuffler/
 
 A web app that let users randomly shuffle the letters of a word in to a random order.
 
